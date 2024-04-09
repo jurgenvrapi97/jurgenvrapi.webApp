@@ -21,7 +21,7 @@ public class AutoreServices {
         nuovoAutore.setCognome("Verdi");
         nuovoAutore.setEmail("Marco.Verdi@gmail.com");
         nuovoAutore.setAvatar("ciaoajiaoa");
-        nuovoAutore.setDataDiNascita(LocalDate.ofEpochDay(12));
+        nuovoAutore.setDataDiNascita(LocalDate.of(2002, 3, 3));
     }
 
     public List<Autore> getAllAutori() {
