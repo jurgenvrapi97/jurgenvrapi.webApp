@@ -1,13 +1,16 @@
 package applicationWeb.jurgenvrapi.entities;
 
-import java.util.Date;
+import lombok.Data;
 
+import java.time.LocalDate;
+
+@Data
 public class Autore {
     private Long id;
     private String nome;
     private String cognome;
     private String email;
-    private Date dataDiNascita;
+    private LocalDate dataDiNascita;
     private String avatar;
 
     // getters and setters
